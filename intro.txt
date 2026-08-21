@@ -1,0 +1,53 @@
+Modern Web Development
+
+
+- create gmail account
+- how websites works
+- frontend - backend - database
+
+fullStack ---- MERN Stack
+
+M ----- Mongo DB --- database
+E  ----- Express.js  ---- Backend
+R  ----- React.js ------- frontend
+N  ----- Node.js  ---- Backend
+
+
+skeleton ---- HTML
+styling ----- CSS
+Functionality --- JS
+
+
+------------------------- HTML (hyper text markup language)
+
+Create Folder --- right click > new > folder > rename folder > press Enter
+
+new Line > Press Enter
+
+Shift + < = <
+Shift + > = >
+Ctrl + S = Save
+
+- Don't use .html in folder name.
+
+
+
+syntax ---- 
+
+markup , element, tag
+
+
+------------ opening tag -----------
+
+<_> ---- <p>
+
+------------ closing tag -----------
+</_> --- </p>
+
+
+<p> Hello class </p>
+<p> Kese hen sab? </p>
+
+IDE's
+
+
