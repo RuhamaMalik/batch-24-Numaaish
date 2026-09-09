@@ -1,0 +1,56 @@
+/* h1{
+    color: rgb(31, 187, 187);
+} */
+
+
+/* Universal Selector */
+/* *{
+    color: blue;
+} */
+
+/* h1{
+    color: blue;
+} */
+
+/* #cs{
+    color: burlywood;
+} */
+
+/* .cs{
+    color: burlywood;
+}
+
+
+.bg{
+    background-color: blueviolet;
+} */
+
+
+/* .red{
+  color: red;  
+} */
+
+
+/* h1.red{
+  color: red;  
+} */
+
+
+
+/* ol>li{
+    color: cadetblue;
+}
+
+
+ul a{
+    color: green;
+} */
+
+
+/* h1+p{
+ color: rgb(41, 124, 196);   
+} */
+
+h1~p{
+ color: rgb(41, 124, 196);   
+}
