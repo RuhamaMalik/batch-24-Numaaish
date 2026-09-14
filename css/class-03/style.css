@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* color: blue; */
+    /* background-color: rgb(66, 180, 236); */
+    /* padding: 20px; */
+}
+
+/* h1 {
+    background-color: cornflowerblue;
+    padding: inherit;
+}
+
+p {
+    background-color: rgb(46, 99, 199);
+    padding: inherit;
+} */
+
+/* //////////////////////////// 11 ------- colours */
+
+h1 {
+    /* color: blueviolet; */
+    /* color: rgb(14, 118, 29); */
+    /* color: #334663; */
+
+    /* color: rgba(14, 118, 30, 0); */
+    /* color: hsla(36, 53%, 50%, 0.662); */
+}
+
+
+
+/* //////////////////////////// 12 ------- text */
+
+/* h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ */
+
+
+
+.container{
+    /* width: 500px;
+    height: 500px; */
+    /* width: 50%; */
+    width: 50vw ;
+    height: 500px;
+    background-color: black;
+}
+.child{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(149, 44, 44);
+}
