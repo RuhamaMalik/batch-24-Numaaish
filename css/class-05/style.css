@@ -1,0 +1,122 @@
+/* p>img{
+    text-align: justify;
+    vertical-align: text-top;
+} */
+
+
+/* p{
+    text-indent: 300px ;
+} */
+
+/* h1{
+    text-shadow: 7px -4px 7px #828ACE ;
+} */
+
+
+
+/* p::first-letter{
+    font-size: 50px;
+    text-shadow: 7px -4px 7px #828ACE ;
+}
+
+p::first-line{
+    color: #567aef;
+} */
+
+
+/* a:link {
+    color: aqua;
+}
+
+a:active {
+    color: rgb(5, 82, 82);
+}
+a:visited {
+    color: rgb(212, 140, 40);
+} */
+
+/* input{
+    background-color: rgb(80, 79, 78);
+    outline:  none;
+    border:  none;
+    padding: 5px;
+}
+input:focus {
+    background-color: burlywood;
+  
+}
+input:active {
+    background-color: rgb(150, 222, 135);
+  
+} */
+
+
+/* h1:hover{
+    color: cornflowerblue;
+    background-color: black;
+}
+
+
+a{
+    color: chocolate;
+}
+
+a:hover{
+    color: rgb(156, 242, 106);
+}
+
+
+#btn:hover{
+    background-color: cadetblue;
+
+} */
+
+
+/* li{
+    color: darkkhaki;
+} */
+
+/* .list{
+    color: darkkhaki;
+} */
+
+/* li[class]{
+     color: darkkhaki;
+} */
+
+/* li[class='list']{
+     color: darkkhaki;
+} */
+ 
+/* li[class~='list']{
+     color: rgb(77, 151, 235);
+} */
+
+
+/* li[class^="l"]{
+    color: crimson;
+} */
+
+
+/* li[class*="ee"]{
+    color: crimson;
+} */
+
+/* li[class$="n"]{
+    color: crimson;
+} */
+
+/* //////////////// 13 ---- boxes */
+
+.box{
+    /* min-height: 300px; */
+    height: 300px;
+    /* max-height: 500px; */
+    width: 300px;
+    background-color: crimson;
+
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    /* overflow-x: scroll; */
+}
