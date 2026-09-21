@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    /* height: 400px;
+    width: 400px;
+    background-color: burlywood;
+
+    border: 15px solid black; */
+
+    /* padding: 25px  0  100px 150px ; 
+    margin: 10px 30px 50px 70px; */
+
+
+    /* margin-bottom: 20px; */
+    /* padding-left: 30px; */
+
+    /* border-width: 15px; */
+    /* border-right-width: 15px; */
+    /* border-style: dashed; */
+
+    /* border-top-style: dashed;
+    border-left-style: double;
+    border-bottom-style: solid;
+    border-right-style:groove; */
+
+    /* margin: 10vh auto; */
+
+}
+
+/* clock wise --- top*/
+
+button {
+    /* border: none; */
+}
+
+
+
+
+.box {
+    /* height: 400px;
+    width: 400px;
+    background-color: burlywood;
+    padding: 30px; */
+    /* border: 55px solid black; */
+    /* display: none; */
+    /* visibility: hidden; */
+    /* display: inline; */
+    /* display: inline-block; */
+}
+
+/* .img {
+    width: 50px;
+    display: block;
+}
+
+.parent{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.ans{
+    background-color: chocolate;
+    padding: 30px;
+    margin-top: 15px;
+    display: none;
+}
+
+.parent:hover .ans{
+   display: block; 
+} */
+
+
+.box {
+    /* margin: 5vh auto;
+    border-image-source: url('https://www.pngitem.com/pimgs/m/494-4943715_borders-and-frames-picture-border-design-simple-hd.png');
+    border-image-slice: 20%;
+    border-image-width: 30px;
+    border-image-repeat:round;
+    border-image-outset: 80px ; */
+}
+
+.parent {
+    height: 100vh;
+    max-width: 100vw;
+}
+
+.sidebar {
+    height: 100%;
+    width: 20%;
+    background-color: chocolate;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main {
+    height: 100%;
+    width: 79%;
+    background-color: rgb(227, 223, 220);
+    display: inline-block;
+    overflow: auto;
+}
