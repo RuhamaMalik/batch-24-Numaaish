@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .box {
@@ -94,12 +95,36 @@ button {
     background-color: chocolate;
     display: inline-block;
     vertical-align: top;
+    text-align: center;
+}
+
+.sidebar img{
+    height: 200px;
+    width: 200px;
+    margin-top: 40%;
+    border-radius: 50%;
+    border: 10px solid rgb(245, 170, 116);
+
+    outline: 15px solid green;
+    outline-offset: 10px;
+    padding: 5px;
+}
+
+.sidebar a{
+    display: block;
+    text-decoration: none;
+     margin-top: 30px;
+     color: rgba(255, 255, 255, 0.588);
+}
+
+.sidebar a:hover
+{
+    color: rgb(13, 11, 11);
 }
 
 .main {
     height: 100%;
     width: 79%;
-    background-color: rgb(227, 223, 220);
     display: inline-block;
     overflow: auto;
 }
