@@ -1,0 +1,65 @@
+/* @import "./common.css";
+@import url(./contact.css);
+@import url(./about.css); */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+/* .fw{
+
+    max-width: 1600px;
+    margin: auto;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1{
+    display: inline-block;
+}
+
+header nav{
+    display: inline-block;
+    width: 500px;
+}
+
+header nav a{
+   text-decoration: none;
+   color: white;
+   padding-left: 10px;
+} */
+
+
+
+.hero{
+    padding: 30px;
+    height: 500px;
+    color: aliceblue;
+    
+    /* background-color: chocolate; */
+    /* background-image: url("https://m.media-amazon.com/images/I/71+17bVYHxL.jpg"); */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7qgIzZTEGNr5YN_0LCDpWyN_NIYjme09K9-eBXOUc8f77vM6s96dqPQU&s=10");
+    background-repeat: no-repeat;
+    background-position:  center ;
+    background-size: cover;
+    background-attachment: fixed; */
+
+
+    /* background: red url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7qgIzZTEGNr5YN_0LCDpWyN_NIYjme09K9-eBXOUc8f77vM6s96dqPQU&s=10') no-repeat center fixed  ;
+    background-size: cover; */
+
+    /* background-image: linear-gradient( to bottom, black,blue,yellow); */
+    background-image: radial-gradient(  black,blue,yellow);
+}
+
