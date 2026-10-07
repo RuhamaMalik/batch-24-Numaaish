@@ -1,0 +1,96 @@
+:root {
+    --abcd: rgb(65, 189, 234);
+    --bg-color: black;
+    --shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* --t-shadow: 3px 3px 5px rgb(60, 60, 60); */
+    --font1: sans-serif;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: var(--abcd);
+    box-shadow: var(--shadow);
+    font-family: var(--font1);
+}
+
+button {
+    background-color: var(--bg-color);
+    color: var(--abcd);
+    padding: 10px
+}
+
+
+
+.parent {
+    --t-shadow: 3px 3px 5px rgb(70, 184, 250);
+}
+
+li:hover {
+    text-shadow: var(--t-shadow);
+    padding-left: 5px;
+    color: burlywood;
+}
+
+
+
+.container {
+    /* width: 1000px; */
+    height: 500px;
+    background-color: black;
+}
+
+/* 
+@media only screen and (max-width:1100p) {
+    .container {
+        width: 600px;
+        background-color: chocolate;
+    }
+
+    button {
+        width: 300px;
+    }
+
+} */
+
+
+
+/* @media only screen and (max-width: 650px){
+.container{
+    width: 95%;
+}
+} */
+
+
+/* @media (max-width:1100px){
+
+     .container {
+        width: 600px;
+        background-color: chocolate;
+    }
+
+    button {
+        width: 300px;
+    }
+} */
+
+
+
+/* @media (orientation: landscape){
+.container{
+    background-color: chartreuse;
+}
+} */
+
+
+/* @media (min-width:500px) and (max-width:1000px){
+.container{
+    background-color: cornflowerblue;
+}
+} */
