@@ -69,35 +69,35 @@
 
 
 .detail {
-    /* width: 800px;
+    width: 800px;
     height: 600px;
     background-color: rgb(60, 59, 59);
     margin: auto;
     margin-top: 5vh;
-    position: relative; */
+    position: relative;
 }
 
 .orange {
-    /* width: 45%;
+    width: 45%;
     height: 100%;
     background-color: rgb(255, 123, 0);
-    position: absolute; */
+    position: absolute;
     /* display: inline-block; */
 }
 
 .orange>img {
-    /* width: 500px; */
+    width: 500px;
     /* margin-left: -50px; */
-    /* position: relative;
-    right: 50%; */
+    position: relative;
+    right: 50%;
 }
 
 
 .gray {
-    /* width: 54%;
+    width: 54%;
     height: 100%;
     position: absolute;
-    right: 0; */
+    right: 0;
     /* display: inline-block; */
 }
 
