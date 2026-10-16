@@ -1,0 +1,9 @@
+.hero{
+flex-direction: column-reverse;
+}
+.hero .content{
+    width: 65%;
+}
+.hero .btns{
+    align-items: center;
+}
