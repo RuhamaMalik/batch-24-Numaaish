@@ -57,6 +57,7 @@ section {
 
 .btn:hover {
     background-color: #3270f5;
+    
 }
 
 /* ///////////////////////// Header start */
@@ -130,9 +131,7 @@ nav a:hover,
     width: 55%;
 }
 
-.hero h1 {
-    font-size: 4vmax;
-}
+
 
 .hero p {
     color: var(--combo-colour);
@@ -243,9 +242,87 @@ nav a:hover,
   border-radius: 20px;
 }
 
+.about .hero{
+    gap: 20px;
+}
+
+.hero li::marker{
+font-size: 1.8em;
+color: var(--contrast-colour);
+}
+
 
 /* ///////////////////////// About END */
+/* ///////////////////////// FOOTER START */
 
+footer{
+    background-color: black;
+    padding: 50px;
+}
+
+.footer{
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+gap: 30px;
+    
+}
+
+.footer .child{
+    min-width: 300px;
+}
+
+.footer .child h3{
+    color: var(--base-colour);
+    margin-bottom: 35px;
+    font-size: 1.7em;
+}
+.footer .link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer .link a{
+    color: var(--base-colour);
+}
+.footer .link a:hover{
+    color: var(--combo-colour);
+}
+
+
+.sub{
+    width: 400px;
+    color: var(--base-colour);
+}
+.sub p{
+  font-size: 19px;
+}
+.sub input{
+ background-color: transparent;
+ border: none;
+ outline: none;
+ padding: 15px 25px ;
+ color: var(--base-colour);
+ border-radius: 5px;
+ box-shadow: rgba(255, 253, 253, 0.381) 0px 1px 3px 0px, rgba(237, 238, 239, 0.438) 0px 0px 0px 1px;
+}
+.sub button{
+ background-color: var(--base-colour);
+ border: none;
+ outline: none;
+ padding: 15px 25px ;
+ box-shadow: rgba(255, 253, 253, 0.381) 0px 1px 3px 0px, rgba(237, 238, 239, 0.438) 0px 0px 0px 1px;
+}
+
+
+.icons i{
+    font-size: 25px ;
+    margin-right: 8px;
+}
+
+/* ///////////////////////// FOOTER END */
 
 @media (max-width:1000px) {
 
@@ -291,6 +368,10 @@ nav a:hover,
     width: 90%;
 }
 
+.footer{
+    flex-direction: column;
+}
+
 }
 
 @media (max-width:600px) {
@@ -301,5 +382,14 @@ nav a:hover,
         width: 98%;
     }
 
+.sub{
+    width: 100%;
+}
+}
 
+
+@media (max-width: 1600px){
+    .hero h1 {
+    font-size: 4vmax;
+}
 }
