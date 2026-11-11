@@ -14,7 +14,7 @@ Multi Line Comment
 
 // alert() /// function
 // abcd.alert() /// method
-// alert property
+// alert ///  property
 
 // ; --- statement terminator
 
